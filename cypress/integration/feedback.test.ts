@@ -22,7 +22,7 @@ describe('Feedback page', () => {
 
     cy.get('div[data-testid="FeedbackForm__Rating"]')
       .get('.ant-rate-star > div[role="radio"]')
-      .eq(Math.floor(Math.random() * 4))
+      .eq(Math.floor(Math.random() * 5))
       .click();
 
     cy.get('textarea[id="feedback_comment"]').type(
