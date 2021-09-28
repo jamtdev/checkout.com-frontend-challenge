@@ -1,6 +1,6 @@
 # [Checkout.com](https://www.checkout.com) Frontend Challenge
 
-[![pipeline status](https://gitlab.com/jamt/checkout-com-frontend-challenge/badges/main/pipeline.svg)](https://gitlab.com/jamt/checkout-com-frontend-challenge/-/commits/main)
+[![Pipeline Status](https://gitlab.com/JamT/checkout-com-frontend-challenge/badges/main/pipeline.svg)](https://gitlab.com/JamT/checkout-com-frontend-challenge/badges/main/pipeline.svg)
 
 ## Overview
 
