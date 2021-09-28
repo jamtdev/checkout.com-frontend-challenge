@@ -1,7 +1,5 @@
 # [Checkout.com](https://www.checkout.com) Frontend Challenge
 
-[![pipeline status](https://gitlab.com/jamt/checkout-com-frontend-challenge/badges/main/pipeline.svg)](https://gitlab.com/jamt/checkout-com-frontend-challenge/-/commits/main)
-
 ## Overview
 
 This project is composed of a web app built with [Next.js](https://nextjs.org/), [Apollo Client](https://www.apollographql.com/apollo-client) and [Ant Design](https://ant.design/), and a GraphQL API built with [Next.js](https://nextjs.org/docs/api-routes/introduction), [Apollo Server](https://https://www.apollographql.com/docs/apollo-server/) and [MongoDB](https://www.mongodb.com/).
