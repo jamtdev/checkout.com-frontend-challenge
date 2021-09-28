@@ -1,0 +1,33 @@
+stages:
+  - setup
+  - test
+
+image: cypress/base:12
+
+variables:
+  CYPRESS_CACHE_FOLDER: $CI_PROJECT_DIR/cache/cypress
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+
+  paths:
+    - .next
+    - .yarn
+    - cache/cypress
+    - node_modules
+
+build:
+  stage: setup
+
+  script:
+    - yarn install
+    - yarn build
+
+test:
+  stage: test
+
+  script:
+    - $(yarn bin)/cypress cache path
+    - $(yarn bin)/cypress cache list
+    - $(yarn bin)/cypress verify
+    - yarn start & yarn test:ci
